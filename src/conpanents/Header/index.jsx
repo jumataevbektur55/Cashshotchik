@@ -17,6 +17,7 @@ const Header = () => {
             Cash
           </span>
         </a>
+        <h1>skjfvbkuaefvblukaevb</h1>
         <div class="flex md:order-2">
           <button
             type="button"
