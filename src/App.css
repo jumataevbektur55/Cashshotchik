@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    width: 60%;
+    margin: 0 auto;
 }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 50px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.expenses{
+    width: 200px;
+    height: 200px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 22px -4px rgba(8,7,7,0.96);
+    -webkit-box-shadow: 0px 20px 22px -4px rgba(8,7,7,0.96);
+    -moz-box-shadow: 0px 20px 22px -4px rgba(8,7,7,0.96);
 }
+.expenses h1{
+    color: black;
+    font-size: 30px;
+}
+.money{
+    width: 200px;
+    height: 200px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 22px -4px rgba(8,7,7,0.96);
+-webkit-box-shadow: 0px 20px 22px -4px rgba(8,7,7,0.96);
+-moz-box-shadow: 0px 20px 22px -4px rgba(8,7,7,0.96);
+}
+.money h1{
+    color: black;
+    font-size: 30px;
+}
+body{
+    background: rgb(253, 253, 255);
+}
+.input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+.input button{
+    padding: 10px 40px;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    background: wheat;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.money{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.expenses{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
